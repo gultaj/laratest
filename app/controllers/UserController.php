@@ -32,4 +32,15 @@ class UserController extends BaseController {
 		return View::make('user.edit', compact('user'));
 	}
 
+	public function update($id) {
+
+		$validator = Validator::make(Input::all(), User::$rules);
+
+		if ($validator->fails()) {
+			return Redirect::back()->withInput()->withErrors($validator);
+		}
+
+		//dd(Input::all());
+	}
+
 }
