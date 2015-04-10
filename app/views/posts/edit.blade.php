@@ -1,0 +1,1 @@
+D:\Doc\Projects\laratest\app/views/posts/edit.blade.php
