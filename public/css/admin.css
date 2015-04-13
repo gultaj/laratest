@@ -18,6 +18,6 @@ input[type="text"], input[type="email"], input[type="password"] { height: 30px; 
 textarea { width: 96%; padding: 2%; }
 input[type="submit"] { background: #4288CE; color: #fff; height: 40px; line-height: 40px; border: none; border-radius: 3px; padding: 0 20px; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
 input[type="submit"]:hover { background: #333; cursor: pointer}
-form.destroy { display: inline-block; padding: 0; border: none; width: auto; }
+form.destroy { display: inline-block; padding: 0; border: none; width: auto; margin-bottom: 5px}
 form.destroy input[type="submit"] { margin-left: 10px; background: #999; display: inline-block; height: auto; padding: 0.2em; line-height: 1.2em; }
 form.destroy input[type="submit"]:hover { background: red; }
